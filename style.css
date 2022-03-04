@@ -96,3 +96,41 @@ a.link-button span {
     padding-left: 5px;
     font-weight: 700;
 }
+
+
+/* player styles */
+
+.players-details {
+    margin-top: 70px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 27px 30px;
+}
+
+.player {
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.player-area h2 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+}
+
+.player-area p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
