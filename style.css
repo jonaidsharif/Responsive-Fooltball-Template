@@ -1,0 +1,98 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style or utilites */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+.container {
+    background-color: blueviolet;
+    padding: 0 140px 80px 156px;
+}
+
+
+/* navbar styes */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+nav .button .icon {
+    padding-right: 10px;
+}
+
+
+/* top banner styles */
+
+.top-banner {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.text-area h1 {
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+
+/* button styles */
+
+.link-button {
+    color: white;
+    background-color: #E02C6D;
+    position: absolute;
+    font-weight: bold;
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    top: 420px;
+}
+
+a.button {
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    transition: background-color 1s;
+}
+
+a.link-button span {
+    padding-left: 8px;
+}
+
+.link-icon {
+    color: white;
+    padding-left: 5px;
+    font-weight: 700;
+}
